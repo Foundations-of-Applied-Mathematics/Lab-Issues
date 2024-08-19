@@ -1,6 +1,6 @@
 ---
-name: Custom Template
-about: To help students know what info to put
+name: Feature request
+about: Suggest an idea for this project
 title: ''
 labels: ''
 assignees: ''
