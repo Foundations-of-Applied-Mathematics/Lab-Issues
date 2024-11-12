@@ -1,0 +1,19 @@
+name: Suggestion
+description: An idea to improve a lab
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: 'Suggestion:'
+      description: Please be as detailed as possible
+    validations:
+      required: true
+  - type: textarea
+    id: lines
+    attributes:
+      label: Source Lines
+      description: Relevant areas in the lab source code. Not required.
+      placeholder: >-
+        (Please use the issues button on the labs site to auto-fill this field,
+        if relevant.)
+      render: text

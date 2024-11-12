@@ -1,0 +1,53 @@
+name: Bug
+description: Incorrect or unexpected behavior from code content
+body:
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Pick the option that best describes your working environment
+      options:
+        - Linux (Debian-based)
+        - Linux (Other)
+        - MacOS
+        - Windows - Direct (Unsupported!)
+        - Windows - WSL
+    validations:
+      required: true
+  - type: dropdown
+    id: packages
+    attributes:
+      label: Package Manager
+      description: What tools are present on your computer for package management?
+      multiple: true
+      options:
+        - Pip
+        - Conda
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 'Bug Details:'
+      description: >-
+        Provide more details about what's incorrect here; please provide
+        reasoning or sources.
+    validations:
+      required: true
+  - type: textarea
+    id: reprod
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the shortest process to reproduce this error
+    validations:
+      required: true
+  - type: textarea
+    id: lines
+    attributes:
+      label: Source Lines
+      description: Relevant areas in the lab source code. Not required.
+      placeholder: >-
+        (Please use the issues button on the labs site to auto-fill this field,
+        if there are segments of related code on the lab site.)
+      render: text

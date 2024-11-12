@@ -1,0 +1,26 @@
+name: Typo
+description: An issue in text- or equation-based content (not code-related).
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: 'Typo Details:'
+      description: >-
+        Provide more details about what's incorrect here; please provide
+        reasoning or sources.
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: 'Suggested Fix:'
+      description: If you know the correction for this issue, please describe it below.
+  - type: textarea
+    id: lines
+    attributes:
+      label: Source Lines
+      description: Relevant areas in the lab source code. Not required.
+      placeholder: >-
+        (Please use the issues button on the labs site to auto-fill this field,
+        if possible.)
+      render: text
