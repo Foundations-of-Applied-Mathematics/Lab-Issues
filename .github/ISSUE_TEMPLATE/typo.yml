@@ -1,5 +1,6 @@
 name: Typo
 description: An issue in text- or equation-based content (not code-related).
+labels: ["Typo"]
 body:
   - type: textarea
     id: details

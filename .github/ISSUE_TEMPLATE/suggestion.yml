@@ -1,5 +1,6 @@
 name: Suggestion
 description: An idea to improve a lab
+labels: ["Suggestion"]
 body:
   - type: textarea
     id: details
