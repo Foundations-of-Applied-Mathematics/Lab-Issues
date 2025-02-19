@@ -43,6 +43,13 @@ body:
       description: Describe the shortest process to reproduce this error
     validations:
       required: true
+  - type: input
+    id: labname
+    attributes:
+      label: Volume & Lab (By Name)
+      description: Please do not refer to labs by number
+    validations:
+      required: true
   - type: textarea
     id: lines
     attributes:
