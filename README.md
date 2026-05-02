@@ -1,4 +1,4 @@
-This repository is dedicated to reporting issues for the [Foundations of Applied Mathematics labs](https://foundations-of-applied-mathematics.github.io).
+This repository is dedicated to reporting issues for the [Foundations of Applied Mathematics labs](https://labs.acme.byu.edu/Pages/intro.html).
 
 # Contributing
 
