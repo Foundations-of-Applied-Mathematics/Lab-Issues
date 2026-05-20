@@ -1,13 +1,13 @@
-name: Typo
-description: Incorrect spelling or grammar.
-labels: ["Typo"]
+name: Website/Formatting Issue
+description: Typos, rendering, broken links, figure formatting, display problems.
+labels: ["Website/Formatting"]
 body:
   - type: textarea
     id: details
     attributes:
       label: 'Description:'
       description: >-
-        Provide more details about what's incorrect here.
+        Provide more details about the issue.
     validations:
       required: true
   - type: textarea
