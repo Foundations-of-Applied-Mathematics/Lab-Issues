@@ -1,5 +1,5 @@
 name: Suggestion
-description: An idea to improve a lab
+description: Suggestions for improvements, new features, new labs, additional hints/examples, or other enhancements.
 labels: ["Suggestion"]
 body:
   - type: textarea
